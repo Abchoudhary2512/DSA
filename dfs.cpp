@@ -40,6 +40,7 @@ int main()
     addEdge(adj,4,1);
     addEdge(adj,4,2);
     addEdge(adj,5,1);
+    addEdge(adj,5,3);
     Solution obj;
     vector<int> df;
     df= obj.dfsOfGraph(5, adj);
